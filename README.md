@@ -2,6 +2,7 @@
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4dd4c82e-5b98-4443-b5ef-23a226a2aee8" />
 
+To ensure transparency and reproducibility, the full implementation of the proposed Extended LSTM (xLSTM) framework is made publicly available. The repository contains modularized code for dataset preprocessing, model training, ablation experiments, and evaluation pipelines.  Each module is designed for extensibility, allowing researchers to adapt the architecture for alternative tasks such as toxicity span prediction, multi-label sentiment analysis, and conversational moderation. The implementation integrates key innovations introduced in this work, including: Cosine-Similarity Gating:} Implements feature-dimension alignment using a learnable reference vector $\mathbf{v}$ to enhance minority-class gradient propagation. Hybrid Embedding Fusion: Supports joint integration of contextual (BERT-CLS), semantic (GloVe, FastText), and character-level BiLSTM features. Adaptive Loss Functions: Provides dynamic class weighting and focal loss for severe label imbalance. Lightweight Evaluation Suite: Enables real-time inference benchmarking with sub-50 ms latency using CPU-level optimization. Schematic Overview of the xLSTM Implementation Framework. The modular codebase encapsulates data handling, model configuration, training pipelines, and ablation utilities, providing a reproducible foundation for advanced sequence modeling research.
 
 <!-- (Optional image preview or architecture image) -->
 
